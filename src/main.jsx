@@ -5,7 +5,7 @@ import './index.css'
 import Navbar from './Navbar.jsx';
 import { Element } from 'react-scroll';
 import About from './About.jsx';
-import { BrowserRouter as  Route } from 'react-router-dom';
+import { HashRouter as  Route } from 'react-router-dom';
 import Content from './Content.jsx';
 import Challenge from './Challenge.jsx';
 import Image1 from './Purple and Orange Facts YouTube Thumbnail (3).png'
