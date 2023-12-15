@@ -1,0 +1,202 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.hero{
+  display: flex;
+  justify-content: space-around;
+
+  padding: 20px;
+  background: linear-gradient(to bottom, rgb(210, 23, 239), #fff);
+  background-size: cover;
+  width: 100vw; /* 100% of viewport width */
+  height: 100vh; /* 100% of viewport height */
+  margin-top: 600PX;
+  margin-bottom: auto;
+  color: #fff;
+
+}
+ #root {
+  max-width: 100%;
+
+  margin-right: 0;
+  margin-left: 0;
+
+  text-align: center;
+}
+.words {
+  font-family: tahoma;
+}
+  
+@keyframes openclose {    
+  0% {
+    top: 0.2rem;
+    width: 0;
+  }
+  5% {
+    width: 0;
+  }
+  15% {
+    width: 230px;
+  }
+  30% {
+    top: 0.2rem;
+    width: 230px;
+  }
+  33% {
+    top: 0.2rem;
+    width: 0;
+  }
+  35% {
+    top: 0.2rem;
+    width: 0;
+  }
+  38% {
+    top: -4.5rem;
+    
+  }
+  48% {
+    top: -4.5rem;
+    width: 190px;
+  }
+  62% {
+    top: -4.5rem;
+    width: 190px;
+  }
+  66% {
+    top: -4.5rem;
+    width: 0;
+    text-indent: 0;
+  }
+  71% {
+    top: -9rem;
+    width: 0;
+    text-indent: 5px;
+  }
+  86% {
+    top: -9rem;
+    width: 285px;
+  }
+  95% {
+    top: -9rem;
+    width: 285px;
+  }
+  98% {
+    top: -9rem;
+    width: 0;
+    text-indent: 5px;
+  }
+  100% {
+    top: 0;
+    width: 0;
+    text-indent: 0;
+  }
+}
+.message{
+  margin-bottom: 100px;
+  margin-top: 0px;
+  justify-content: flex-start;
+  text-align: start;
+  font-size: 25px;  
+  color: #231557;
+  text-shadow: #aea80e;
+  font-weight: bold;
+}
+.heroimg{
+  width: 450px;
+  margin-right: 80px;
+  margin-bottom: 120px;
+  margin-top: 100px;
+}
+.animate-charcter
+{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin-bottom:20px ;
+  margin-top: 100px;
+   text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #231557 0%, 
+    #44107a 29%,          
+    hsl(340, 91%, 50%) 67%,    
+    #aea80e 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+      font-size: 150px;
+      text-shadow:0, 3px 5px #222324, 0;
+      font-weight: bolder;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+
+.herosec{
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+    align-self: flex-start; 
+    margin-bottom: 10px;
+    justify-content: left;
+    align-items: flex-start;
+    margin-left: 50px;
+    
+}
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+} 
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  color: #333;
+  font-family: tahoma;
+  font-size: 3rem;
+  font-weight: 100;
+  line-height: 1.5;
+  text-transform: uppercase;
+  white-space: nowrap;
+  overflow: hidden;
+  position: relative;
+  width: 550px;
+}
+
+  .word {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(240, 116, 116);
+    font: 700 normal 2.5em 'tahoma';
+    text-shadow: 5px 2px #222324, 2px 4px #222324, 3px 5px #222324;
+  }
