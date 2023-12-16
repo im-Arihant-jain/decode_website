@@ -260,7 +260,12 @@ a:hover {
 
 @media (max-width: 768px) {
   /* Adjustments for screens 768px or smaller (typical mobile screens) */
-  
+  ul{
+    display: flex;
+    flex-direction: column;
+    padding: 2px;
+    margin-top: 2px;
+  }
   .content-creation{
     display: flex;
     flex-direction: column;
@@ -269,20 +274,21 @@ a:hover {
   }
   .challenge-container div{
     display: flex;
+    flex-direction: column;
     justify-content: space-around;
     margin-top: 20px;
     padding: 20px;
     max-width: 100%;
   }
-  .challenge-btn{
-    display: flex;
-    flex-direction: column;
-    max-width: 100%;
-    margin: 0 auto;
-    color: white;
-    margin-left: 30px;
-    margin-right: 30px;
-  }
+  .challenge-container h2 {
+  
+    font-size: 55px;
+    font-weight: 600;
+    color: #fdfdfe;
+    text-shadow: 0px 0px 5px #b393d3, 0px 0px 10px #b393d3, 0px 0px 10px #b393d3,
+      0px 0px 20px #b393d3;
+  } 
+  
 }  
 
 
@@ -389,7 +395,7 @@ a:hover {
   background: linear-gradient(92.83deg, rgb(255, 116, 38) 0%, rgb(249, 58, 19) 100%);
 }
 
-.button-78:hover:not(:disabled):after {
+.button-78:hover:not(:disabled):after {   
   bottom: 0;
   left: 0;
   right: 0;

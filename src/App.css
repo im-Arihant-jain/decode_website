@@ -152,7 +152,9 @@ body, html {
   /* Adjustments for screens 768px or smaller (typical mobile screens) */
   .animate-charcter {
     margin-top: 20px; /* Further adjusted margin for better spacing on smaller screens */
-    font-size: 80px; /* Further adjusted font size for better fit on smaller screens */
+    font-size: 80px;
+    margin-left: auto;
+    margin-right: auto; /* Further adjusted font size for better fit on smaller screens */
   }
   .herosec {
     flex-direction: column; /* Adjusted margin for better spacing on smaller screens */

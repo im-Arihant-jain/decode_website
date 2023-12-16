@@ -30,12 +30,12 @@ const Challenge = () => {
       <h2 className='challenge-head'>Challenge</h2>
       <p className='challdesc'>{challengeDescription}</p>
       <div>
-        <div className ="challenge-btn">
+      
         <button className ='button-78' role="button" onClick={openLink} >Challenge Details</button>
       <button className ='button-78' role="button" onClick={openLink2}>Join Challenge</button>
       <button className ='button-78' role="button" onClick={toggleLeaderboard}>PHASE WINNERS</button>
       
-        </div>
+        
       </div>
       {showLeaderboard && (
         <div className="leaderboard-container">
