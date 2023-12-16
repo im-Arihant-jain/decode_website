@@ -104,18 +104,28 @@ body, html {
   text-shadow: #aea80e;
   font-weight: bold;
 }
-.heroimg{
-  width: 450px;
-  margin-right: 80px;
-  margin-bottom: 120px;
-  margin-top: 100px;
+.heroimg {
+  width: 100%; /* Make the image take up 100% of its container width */
+  max-width: 450px;
+  margin-right: 80px; /* Adjusted margin for better spacing on smaller screens */
+  margin-bottom: 100px; /* Adjusted margin for better spacing on smaller screens */
+  margin-top: 120px; /* Adjusted margin for better spacing on smaller screens */
 }
-.animate-charcter
-{
+
+@media (max-width: 768px) {
+  /* Adjustments for screens 768px or smaller (typical mobile screens) */
+  .heroimg {
+    width: 100%;
+    margin-right: 0; /* Remove the margin for smaller screens */
+    margin-bottom: 20px; /* Adjusted margin for better spacing on smaller screens */
+    margin-top: 40px; /* Adjusted margin for better spacing on smaller screens */
+  }
+}
+.animate-charcter {
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  margin-bottom:20px ;
-  margin-top: 100px;
-   text-transform: uppercase;
+  margin-bottom: 20px;
+  margin-top: 50px; /* Adjusted margin for better spacing on smaller screens */
+  text-transform: uppercase;
   background-image: linear-gradient(
     -225deg,
     #231557 0%, 
@@ -133,10 +143,22 @@ body, html {
   -webkit-text-fill-color: transparent;
   animation: textclip 2s linear infinite;
   display: inline-block;
-      font-size: 150px;
-      text-shadow:0, 3px 5px #222324, 0;
-      font-weight: bolder;
+  font-size: 140px; /* Adjusted font size for better fit on smaller screens */
+  text-shadow: 0, 3px 5px #222324, 0;
+  font-weight: bolder;
 }
+
+@media (max-width: 768px) {
+  /* Adjustments for screens 768px or smaller (typical mobile screens) */
+  .animate-charcter {
+    margin-top: 20px; /* Further adjusted margin for better spacing on smaller screens */
+    font-size: 80px; /* Further adjusted font size for better fit on smaller screens */
+  }
+  .herosec {
+    flex-direction: column; /* Adjusted margin for better spacing on smaller screens */
+  }
+}
+
 
 @keyframes textclip {
   to {
@@ -147,14 +169,15 @@ body, html {
 .herosec{
   display: flex;
   flex-direction: column;
-  flex: 1;
-    align-self: flex-start; 
+  flex: 1; 
+    align-self: flex-start;
     margin-bottom: 10px;
     justify-content: left;
     align-items: flex-start;
     margin-left: 50px;
     
 }
+
 @keyframes logo-spin {
   from {
     transform: rotate(0deg);
@@ -194,9 +217,38 @@ h1 {
   width: 550px;
 }
 
+.word {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: rgb(240, 116, 116);
+  font: 700 normal 2em 'tahoma'; /* Adjusted font size for better fit on smaller screens */
+  text-shadow: 3px 1px #222324, 1px 2px #222324, 2px 3px #222324; /* Adjusted text-shadow for better visibility */
+}
+
+@media (max-width: 768px) {
+  /* Adjustments for screens 768px or smaller (typical mobile screens) */
   .word {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: rgb(240, 116, 116);
-    font: 700 normal 2.5em 'tahoma';
-    text-shadow: 5px 2px #222324, 2px 4px #222324, 3px 5px #222324;
+    font-size: 1.3em; /* Further adjusted font size for better fit on smaller screens */
+    text-shadow: 2px 1px #222324, 1px 2px #222324, 1px 2px #222324; /* Further adjusted text-shadow for better visibility */
   }
+}
+
+  @media (min-width: 1200px) {
+    /* Adjust styles for larger screens */
+    .hero {
+      padding: 50px; /* Adjusted padding for larger screens */
+    }
+  
+    .message {
+      font-size: 30px; /* Adjusted font size for larger screens */
+    }
+  }
+  
+  @media (max-width: 768px) {
+    /* Adjust styles for smaller screens */
+    .hero {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center; /* Adjusted padding for larger screens */
+    }
+  }  
+    
