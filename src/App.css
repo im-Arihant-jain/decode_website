@@ -1,22 +1,22 @@
 body, html {
-  margin: 0;
-  padding: 0;
+  margin: -1;
+  padding: -1;
   height: 100%;
 }
 
 .hero{
   display: flex;
   justify-content: space-around;
-
+  height: 100vh;
   padding: 20px;
   background: linear-gradient(to bottom, rgb(210, 23, 239), #fff);
   background-size: cover;
   width: 100vw; /* 100% of viewport width */
   height: 100vh; /* 100% of viewport height */
   margin-top: 600PX;
-  margin-bottom: auto;
+  margin-bottom: 150px;
   color: #fff;
-
+  height: 100vh;
 }
  #root {
   max-width: 100%;
@@ -248,9 +248,27 @@ h1 {
   @media (max-width: 768px) {
     /* Adjust styles for smaller screens */
     .hero {
+     
       flex-direction: column;
       justify-content: center;
-      align-items: center; /* Adjusted padding for larger screens */
+      align-items: center;
+      display: flex;
+      
+      height: 100vh;
+      padding: 40px;
+      background: linear-gradient(to bottom, rgb(210, 23, 239), #fff);
+      background-size: cover;
+      width: 100vw; /* 100% of viewport width */
+      /* 100% of viewport height */
+      
+      margin-bottom: auto;
+      color: #fff; /* Adjusted padding for larger screens */
+    }
+    .herosec{
+      margin-bottom: 40px;
+    }
+    .heroimg{
+      margin-top: 40px;
     }
   }  
     

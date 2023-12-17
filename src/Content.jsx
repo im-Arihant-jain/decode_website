@@ -5,7 +5,7 @@ const Content = (props) => {
   const [isHovered, setIsHovered] = useState(false);
   const handleClick = () => {
     // Replace 'your-link-url' with the actual link URL
-    window.location.href = 'your-link-url';
+    window.open(props.src, '_blank');
   };
   return (
     <Element name="Content">

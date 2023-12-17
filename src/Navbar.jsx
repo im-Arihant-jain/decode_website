@@ -9,21 +9,22 @@ const Navbar = () => {
           <img src='https://yt3.googleusercontent.com/_ypJVXMQ86gryY_Yb4bAU8eK0xgXTzMN92NQEtNxFCBu0BESmhN-Fd88ThTuGEyC6RvdZ2w55X0=s176-c-k-c0x00ffffff-no-rj' className="logo" alt="Vite logo" />
         </a>
       <ul>
-        <li>
+      <li>
           <ScrollLink to="about" smooth={true} duration={500}>
           About
           </ScrollLink>
         </li>
         <li>
-          <ScrollLink to="about" smooth={true} duration={500}>
+          <ScrollLink to="Content" smooth={true} duration={500}>
             Content
           </ScrollLink>
         </li>
         <li>
-          <ScrollLink to="about" smooth={true} duration={500}>
+          <ScrollLink to="Challenge" smooth={true} duration={500}>
             Challenge
           </ScrollLink>
         </li>
+        
       </ul>
     </nav>
   );
