@@ -3,7 +3,7 @@ import React, { useState, useEffect } from 'react';
 import reactLogo from './assets/react.svg'
 //import viteLogo from 'https://yt3.googleusercontent.com/_ypJVXMQ86gryY_Yb4bAU8eK0xgXTzMN92NQEtNxFCBu0BESmhN-Fd88ThTuGEyC6RvdZ2w55X0=s176-c-k-c0x00ffffff-no-rj'
 import './App.css'
-import backimg from './coder-clipart-coding-clipart-practical-10-800x444-removebg-preview.png'
+import backimg from './Untitled_design__6_-removebg-preview.png'
 function App() {
   const [count, setCount] = useState(0)
   const words = [
@@ -51,7 +51,7 @@ function App() {
   }, [forwards, i, offset, skipCount]);
 
   return (
-    <body >
+    <body>
       <div className='hero' >
       <div className='herosec'>
        

@@ -14,14 +14,15 @@ import Image3 from './TIME-COMPLEXITY (3).png'
 import Insta from './sdfasd.jpg'
 import Linkedin from './weej.jpg'
 import Sam from './WhatsApp Image 2023-12-17 at 17.40.59.jpeg'
+import Background from './background.jsx';
 ReactDOM.createRoot(document.getElementById('root')).render(
 
   <React.StrictMode>
   
          <Navbar/>
       
-         <App />
-           
+         <App/>
+          
         <div className='content-creation'>  
         <Route path="/Content">
           <Element name="Content">

@@ -215,6 +215,21 @@ a:hover {
   border-radius: 5px;
   
 }
+.leaderboard-chall{
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+}
+.leaderboard-chall h3{
+  color: #a7610c;
+  font-size: large;
+  font-weight: bold;
+}
+.leaderboard-chall p{
+  color: #0c0d0d;
+  font-size: medium;
+  font-weight: bold;
+}
 .challdesc{
   color: #fff;
   font-family: Eina01,sans-serif;
@@ -222,9 +237,7 @@ a:hover {
   font-weight: 800; 
   margin-top: 20px;
 }
-.leaderboard-container h3 {
-  margin-bottom: 10px;
-}
+
 .card--title{
   font-size: 25px;  
   color: #231557;
@@ -233,12 +246,25 @@ a:hover {
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .leaderboard-container ul {
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
+  display: flex;
+  justify-content: space-around;
+  padding-right:auto;
+  margin-right: auto;
+  padding-left: 0;
+  margin-left: auto;
+  color: #f1e957;
+  font-size: medium;
+  font-weight: bold;
+  font-style: italic;
+  text-shadow: 0px 0px 5px #b393d3, 0px 0px 10px #b393d3, 0px 0px 10px #b393d3,
+  0px 0px 20px #b393d3;
+  font-size: medium;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }   
 
 .leaderboard-container li {
+  padding-right:auto;
+  margin-right: auto;
   margin-bottom: 5px;
 }
 .content-creation{
@@ -417,7 +443,7 @@ a:hover {
   overflow: hidden;
   position: absolute;
   right: 4px;
-  top: 4px;
+  top: 4px;   
   transition: all 100ms ease-out;
   z-index: -1;
 }
@@ -529,3 +555,19 @@ main {
 .card{
   margin-bottom: 50px;
 }
+.heroback {
+  background: url('https://images.unsplash.com/photo-1550353127-b0da3aeaa0ca') no-repeat center center;
+  justify-content: center;
+  background-size: cover;
+  flex-direction: column;
+  border-radius: 10px;
+  align-items: center;
+ 
+  display: flex;
+  height: 100vh;
+  width: 100%;
+}
+
+
+
+
