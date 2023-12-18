@@ -15,6 +15,7 @@ import Insta from './sdfasd.jpg'
 import Linkedin from './weej.jpg'
 import Sam from './WhatsApp Image 2023-12-17 at 17.40.59.jpeg'
 import Background from './background.jsx';
+import Ari from './WhatsApp Image 2023-12-18 at 15.56.14.jpeg'
 ReactDOM.createRoot(document.getElementById('root')).render(
 
   <React.StrictMode>
@@ -52,7 +53,7 @@ On our website, you will find a comprehensive collection of educational material
         <div className='about-compo'>
         <Route path="/about">
           <Element name="about">
-            <About img ={Image2} img2={Insta} img3={Linkedin} srcins="https://www.instagram.com/im__arihantjain/?hl=en"
+            <About img ={Ari} img2={Insta} img3={Linkedin} srcins="https://www.instagram.com/im__arihantjain/?hl=en"
              srclin="https://www.linkedin.com/in/arihant-jain-a2079725a/"
              firstName="Arihant" lastName="Jain" phone="85955 46840" email="arihantjain72000@gmail.com"/>
           </Element>
@@ -62,7 +63,7 @@ On our website, you will find a comprehensive collection of educational material
           <Element name="about">
             <About img ={Sam} img2={Insta} img3={Linkedin} srcins="https://www.instagram.com/samarpit_agarwal/?hl=en"
             srclin="https://www.linkedin.com/in/samarpit-agarwal-b4b294255?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
-            firstName="Samarpit" lastName="Agarwal" phone="63992 77859 46840" email="agarwalsamarpit@gmail.com"/>
+            firstName="Samarpit" lastName="Agarwal" phone="63992 77859 " email="agarwalsamarpit@gmail.com"/>
           </Element>
         </Route>
         </div>

@@ -29,7 +29,7 @@ function App() {
             setForwards(false);
             setSkipCount(0);
           }
-        }
+        }   
       } else {
         if (offset === 0) {
           setForwards(true);

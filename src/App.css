@@ -119,7 +119,7 @@ body, html {
     margin-right: 0; /* Remove the margin for smaller screens */
     margin-bottom: 20px; /* Adjusted margin for better spacing on smaller screens */
     margin-top: 40px; /* Adjusted margin for better spacing on smaller screens */
-  }
+  } 
 }
 .animate-charcter {
   font-family :'Times New Roman', Times, serif;
@@ -157,7 +157,9 @@ body, html {
     margin-right: auto; /* Further adjusted font size for better fit on smaller screens */
   }
   .herosec {
-    flex-direction: column; /* Adjusted margin for better spacing on smaller screens */
+    flex-direction: column;
+    height: 70vh;
+    justify-content: space-around; /* Adjusted margin for better spacing on smaller screens */
   }
 }
 
@@ -253,12 +255,14 @@ h1 {
       justify-content: center;
       align-items: center;
       display: flex;
+      margin-right:0 ;
       
-      height: 100vh;
-      padding: 40px;
-      background: linear-gradient(to bottom, rgb(8, 88, 36), #fff);
-      background-size: cover;
-      width: 100vw; /* 100% of viewport width */
+      height: 70%;
+      padding: 20px;
+      
+      background-size:cover;
+      width: 100%;
+      z-index: 1000; /* 100% of viewport width */
       /* 100% of viewport height */
       
       margin-bottom: auto;
