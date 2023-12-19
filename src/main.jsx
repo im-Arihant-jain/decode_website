@@ -47,9 +47,9 @@ ReactDOM.createRoot(document.getElementById('root')).render(
           </Element>
         </Route>
         <div className='aboutpara'>
-        <h3 className='descpara'>Welcome to our dedicated website for coding and DSA enthusiasts! We are a thriving community that revolves around a dynamic YouTube channel where we provide valuable resources and content related to coding and data structures and algorithms (DSA). Our mission is to empower aspiring developers with the necessary knowledge and skills to excel in the world of programming.
+        <h3 className='descpara'>Welcome to our dedicated website for coding and DSA enthusiasts! We are a thriving community that revolves around a dynamic YouTube channel where we provide valuable resources and content related to coding and data structures and algorithms (DSA). Our mission is to assist aspiring coders with the necessary knowledge and skills to excel in the world of programming.
 
-On our website, you will find a comprehensive collection of educational materials, tutorials, and coding challenges specifically designed to enhance your understanding of coding principles and DSA concepts.</h3>
+On our website, you will find a comprehensive collection of educational materials, tutorials, and coding challenges specifically designed to enhance your understanding of coding principles and DSA concepts.Its just a beggining so guys stay tuned..</h3>
         <div className='about-compo'>
         <Route path="/about">
           <Element name="about">

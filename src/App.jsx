@@ -11,7 +11,7 @@ function App() {
     'We love to code',
     'We love to share',
     'Things that you really care',
-    'Finding someone like us is very rare',
+    'So join us if you dare! ',
   ];
   const [part, setPart] = useState('');
   const [i, setI] = useState(0);

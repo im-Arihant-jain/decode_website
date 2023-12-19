@@ -10,7 +10,13 @@ const Challenge = () => {
   const [showLeaderboard, setShowLeaderboard] = useState(false);
   const [showChall, setShowChall] = useState(false)
   const challengeDescription = "Take on the challenge and test your skills!";
-  const leaderboardData = ["Player 1", "Player 2","Player 3","Player 4"];
+  const leaderboardData = ["Ankita",
+    "Anuj", 
+   "Bhavya",
+    "Naman Ji",    
+    "Rachin Ravindra",
+    "Rohan Bhardwaj",
+    "Shobit"];
 
   const toggleLeaderboard = () => {
     setShowLeaderboard(!showLeaderboard);
@@ -64,7 +70,7 @@ const Challenge = () => {
 
 We will share a question with you every day at 10am 
 
-A sheet will be provided to you in the group description which contains the leaderboard, the question that you need to solve in that day and the google form in which you need to update your code. 
+A sheet will be provided to you in the join challenge section which contains the leaderboard, the question that you need to solve in that day and the google form in which you need to update your code. 
 
  You will have one day time to solve the question The next day new question will be given with the solution video of previous day question. Names in the sheet will be maintained as a leaderboard i.e. according to the number of questions solved, we will be having questions in phases i.e. 7-10 problems targetting a specific data structure with increasing level of difficulty. 
           </p>
@@ -73,10 +79,11 @@ A sheet will be provided to you in the group description which contains the lead
 
 Also, it's not about the leaderboard it's about the sincere efforts you put in while trying to solve a problem and how consistent you are. 
 
-We will be starting the challenge from 12th of this month and the first data structure we are going to deal with is ARRAYS SO get ready to solve the problems. 
+We have started this from 12th of December and the first data structure we are going to deal with is ARRAYS. So get ready to solve the problems. 
 
 Also, guys, even if you are still in the learning phase you can go for this, still if you are not, you can still watch the videos which will be insightful and learn. 
           </p>
+          <a className='whatsuplink' href='https://chat.whatsapp.com/B7GgY2P4EiFHkWjkHh4c3n' target="_blank">JOIN GROUP</a>
         </div>
       )}
     </div>

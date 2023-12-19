@@ -85,7 +85,7 @@ body{
 }
 nav {
   display: flex;
-  background: linear-gradient(to bottom, #ce05b7,  rgb(210, 23, 239));
+  background: linear-gradient(to bottom,  #ce05b7,  rgb(210, 23, 239));
   /* background-color: #330fa8; Silvery White */
   padding-left: 20px;
   padding-top:13px ;
@@ -120,6 +120,8 @@ li {
   margin-right: 20px;
   font-size: 24px;
   padding: 10px; 
+  font-weight: bolder;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 @media (max-width: 768px) {
   /* Adjustments for screens 768px or smaller (typical mobile screens) */
@@ -163,6 +165,7 @@ a:hover {
   margin-top: 4px;
   
 }
+
 .logo:hover {
   filter: drop-shadow(0 0 2em #fff764aa);
 }
@@ -210,7 +213,7 @@ a:hover {
   justify-content: space-around;
 }
 .leaderboard-container {
-  background-color: white;
+  background-color: rgb(5, 4, 70);
   padding: 10px;
   border-radius: 5px;
   
@@ -244,6 +247,12 @@ a:hover {
   text-shadow: #aea80e;
   font-weight: bold;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.whatsuplink{
+  color: rgb(3, 84, 84);
+}
+.whatsuplink:hover {
+  color: #ea2727; /* Darker Text Color on Hover */
 }
 .leaderboard-container ul {
   display: flex;
@@ -311,8 +320,9 @@ a:hover {
   .content-creation{
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
-    max-width: 100%;
+    justify-content: space-around;
+    margin-top: 70px;
+    padding: 0;
   }
   .challenge-container div{
     display: flex;
@@ -383,6 +393,14 @@ a:hover {
 }
 
 @media (max-width: 768px) {   
+  .image-link  {
+    margin-top: 100px;
+    border-radius: 8px;
+    width: 100%; /* Make the image take up 100% of its container width */
+    max-width: 450px; /* Set a maximum width for larger screens */
+    height: auto; /* Maintain aspect ratio */
+    transition: transform 0.4s ease-in-out; /* Add a smooth transition effect */
+  }
   .button-78 {
     font-size: 14px;
     padding: 15px 20px;
@@ -533,10 +551,12 @@ main {
   align-items: center;
   width: 450px;
   border: 1px solid rgb(215, 166, 166);
-  background-color: #eae3f1;
-  border-radius: 10px;
+  background-color: #dee0d9;
+  border-radius: 10px;  
   height: 400px;
-       
+  box-shadow: 5px 5px 5px 1px rgba(120,120,120,0.44);
+  -webkit-box-shadow: 5px 5px 5px 1px rgba(120,120,120,0.44);
+  -moz-box-shadow: 5px 5px 5px 1px rgba(120,120,120,0.44);
 }
 
 .card--image {
