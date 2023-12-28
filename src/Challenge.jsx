@@ -10,12 +10,7 @@ const Challenge = () => {
   const [showLeaderboard, setShowLeaderboard] = useState(false);
   const [showChall, setShowChall] = useState(false)
   const challengeDescription = "Take on the challenge and test your skills!";
-  const leaderboardData = ["Ankita",
-    "Anuj", 
-   "Bhavya",
-    "Naman Ji",    
-    "Rachin Ravindra",
-    "Rohan Bhardwaj",
+  const leaderboardData = ["Smriti",
     "Shobit"];
 
   const toggleLeaderboard = () => {
